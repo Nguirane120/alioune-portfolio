@@ -46,8 +46,8 @@ export const personalInfo = {
 };
 
 export const socialLinks: SocialLink[] = [
-  { label: "GitHub", url: "https://github.com/ton-pseudo", icon: "github" },
-  { label: "LinkedIn", url: "https://linkedin.com/in/ton-profil", icon: "linkedin" },
+  { label: "GitHub", url: "https://github.com/Nguirane120", icon: "github" },
+  { label: "LinkedIn", url: "https://www.linkedin.com/in/alioune-badara-nguirane-711820197/", icon: "linkedin" },
   { label: "Email", url: `mailto:${personalInfo.email}`, icon: "mail" },
   { label: "Téléphone", url: `tel:${personalInfo.phone.replace(/\s/g, "")}`, icon: "phone" },
 ];
@@ -155,10 +155,18 @@ export const projects: Project[] = [
   {
     title: "Gestion de boutique",
     description:
-      "Application de gestion de boutique développée pour une commerçante : suivi de l'activité et de la gestion quotidienne.",
+      "Application de gestion pour une boutique de vêtements : stock avec alertes de rupture, ventes, dépenses et tableau de bord du bénéfice. Installable sur mobile (PWA).",
     tags: ["Next.js", "Firebase"],
     demoUrl: "https://gestion-boutique-lemon.vercel.app/",
-    codeUrl: "",
+    codeUrl: "https://github.com/Nguirane120/gestion-boutique",
+  },
+  {
+    title: "Gestion d'auto-école",
+    description:
+      "Application de gestion d'auto-école avec authentification : suivi des élèves, des examens et des paiements.",
+    tags: ["Next.js", "Firebase", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://gestion-auto-ecole-red.vercel.app/login",
+    codeUrl: "https://github.com/Nguirane120/gestion-auto-ecole",
   },
   {
     title: "Tayeur",
