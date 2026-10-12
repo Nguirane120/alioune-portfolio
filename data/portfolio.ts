@@ -37,12 +37,12 @@ export const personalInfo = {
   title: "Développeur Full Stack Web & Mobile",
   tagline:
     "Je conçois des applications web et mobiles performantes, de l'architecture backend à l'expérience utilisateur.",
-  location: "Dakar, Sénégal",
+  location: "Fès, Maroc — ouvert à la relocalisation",
   email: "badaranguirane120@gmail.com",
-  phone: "+221 76 455 30 46",
+  phone: "+212 6 16 28 25 75",
   cvUrl: "/cv/Alioune-Badara-Nguirane-CV.pdf",
   about:
-    "Développeur Full Stack avec plus de 3 ans d'expérience dans la conception et le déploiement d'applications web et mobiles performantes. Expert des frameworks modernes (React, Node.js, Nuxt.js) et du développement mobile avec Flutter, je maîtrise l'intégralité du cycle de vie logiciel, de l'architecture microservices à l'intégration d'APIs complexes.",
+    "Développeur Full Stack avec plus de 3 ans d'expérience dans la conception et le déploiement d'applications web et mobiles performantes. Je dispose de solides compétences sur les frameworks modernes (React, Node.js, Nuxt.js) et en développement mobile avec Flutter, et j'interviens sur tout le cycle de vie logiciel, de l'architecture microservices à l'intégration d'APIs complexes.",
 };
 
 export const socialLinks: SocialLink[] = [
@@ -144,6 +144,22 @@ export const education: EducationItem[] = [
 ];
 
 export const projects: Project[] = [
+  {
+    title: "Kaydiay — E-commerce",
+    description:
+      "Application e-commerce réalisée pour un client, avec paiement mobile intégré via Orange Money et Wave.",
+    tags: ["Flutter", "Firebase", "Orange Money", "Wave"],
+    demoUrl: "https://kaydiay-d5bd7.web.app/",
+    codeUrl: "",
+  },
+  {
+    title: "Gestion de boutique",
+    description:
+      "Application de gestion de boutique développée pour une commerçante : suivi de l'activité et de la gestion quotidienne.",
+    tags: ["Next.js", "Firebase"],
+    demoUrl: "https://gestion-boutique-lemon.vercel.app/",
+    codeUrl: "",
+  },
   {
     title: "Tayeur",
     description: "Application mobile avec backend et APIs d'authentification robustes.",
