@@ -169,18 +169,36 @@ export const projects: Project[] = [
     codeUrl: "https://github.com/Nguirane120/gestion-auto-ecole",
   },
   {
-    title: "Tayeur",
-    description: "Application mobile avec backend et APIs d'authentification robustes.",
-    tags: ["React Native", "Node.js", "Firebase"],
+    title: "Xarala Mobile — clone e-learning",
+    description:
+      "Reproduction de l'application de la plateforme Xarala : catalogue de cours, favoris hors ligne, connexion e-mail et Google, profil avec photo.",
+    tags: ["Flutter", "Bloc", "Firebase"],
     demoUrl: "",
-    codeUrl: "",
+    codeUrl: "https://github.com/Nguirane120/clone_xarala_mobileapp",
   },
   {
-    title: "Easy Market",
-    description: "Back-office e-commerce migré de Django vers ReactJS pour une expérience admin modernisée.",
-    tags: ["ReactJS", "Django", "REST API"],
+    title: "E-commerce Flutter",
+    description:
+      "Application mobile de boutique connectée à une API REST : catalogue par catégorie, détail produit, panier et gestion des produits.",
+    tags: ["Flutter", "Bloc", "API REST", "go_router"],
     demoUrl: "",
-    codeUrl: "",
+    codeUrl: "https://github.com/Nguirane120/xaralEcommerce",
+  },
+  {
+    title: "Gestionnaire de tâches — certification Force-N",
+    description:
+      "To-do list mobile avec catégories, filtre par date et suivi des tâches terminées. Stockage local SQLite et architecture en couches.",
+    tags: ["Flutter", "Riverpod", "SQLite"],
+    demoUrl: "",
+    codeUrl: "https://github.com/Nguirane120/forceN_certification_app",
+  },
+  {
+    title: "Gestion de budget",
+    description:
+      "Application mobile de suivi de budget personnel : ajout de revenus et de dépenses, calcul automatique du solde.",
+    tags: ["Flutter", "Provider"],
+    demoUrl: "",
+    codeUrl: "https://github.com/Nguirane120/gestionBudget",
   },
   {
     title: "CRM Voyage — Voyzant",
