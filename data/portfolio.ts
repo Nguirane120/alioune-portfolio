@@ -169,6 +169,14 @@ export const projects: Project[] = [
     codeUrl: "https://github.com/Nguirane120/gestion-auto-ecole",
   },
   {
+    title: "Resto App — commande en ligne (prototype)",
+    description:
+      "Prototype d'application de commande pour un restaurant : menu par catégorie, recherche, panier avec code promo, et espace admin de gestion des produits.",
+    tags: ["Nuxt.js", "Vue.js", "PrimeVue", "Tailwind CSS"],
+    demoUrl: "",
+    codeUrl: "https://github.com/Nguirane120/resto-app",
+  },
+  {
     title: "Xarala Mobile — clone e-learning",
     description:
       "Reproduction de l'application de la plateforme Xarala : catalogue de cours, favoris hors ligne, connexion e-mail et Google, profil avec photo.",
@@ -199,6 +207,14 @@ export const projects: Project[] = [
     tags: ["Flutter", "Provider"],
     demoUrl: "",
     codeUrl: "https://github.com/Nguirane120/gestionBudget",
+  },
+  {
+    title: "Modules QHSE & DMT — ISTAMCO",
+    description:
+      "Développement front-end du module QHSE (Qualité, Hygiène, Sécurité, Environnement) avec intégration des APIs backend, puis intégration des maquettes Figma des pages du terminal maritime DMT.",
+    tags: ["Nuxt.js", "Vue.js", "API REST", "Figma"],
+    demoUrl: "",
+    codeUrl: "",
   },
   {
     title: "CRM Voyage — Voyzant",
